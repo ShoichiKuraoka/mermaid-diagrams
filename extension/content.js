@@ -70,6 +70,7 @@
 
     // Bitbucket
     $('.codehilite.language-mermaid').forEach(processElement);
+    $('[class="codehilite language-mermaid]').forEach(processElement);
 
     // This catches diagrams that are added to the page after it is loaded.
     // This might include comments from other users.
